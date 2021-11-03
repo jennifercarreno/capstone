@@ -1,0 +1,40 @@
+
+.presave {
+    font-size: x-large;
+}
+
+.nav-item{
+    color: white;
+}
+
+.nav-item:hover {
+    transform: scale(1.25);
+    color: white;
+}
+
+a{
+    color: olivedrab;
+}
+
+a:hover:not(.nav-item) {
+    color:palevioletred;
+}
+
+.btn {
+    background-color: olivedrab;
+    color: white;
+}
+
+.btn:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+.footer{
+    background-color: olivedrab;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}

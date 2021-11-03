@@ -7,11 +7,13 @@
     <title>Greer | Tour</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
 
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar sticky-top navbar-expand navbar-light" width="100%" style="background-color: white;">
+    <nav class="navbar sticky-top navbar-expand" width="100%" style="background-color: olivedrab;">
         <a class="navbar-brand" href="#">
             <img src="https://images.squarespace-cdn.com/content/v1/5e1fa95f7993de38e9588a74/f8dc0d1a-1c21-4afc-a5cf-11b07eb6f18e/logo-min.png?format=1500w" width="100" class="d-inline-block align-top" alt="">
           </a>
@@ -23,9 +25,10 @@
     </nav>
 
     <!-- HERO -->
-    <div class="jumbotron text-center hero-background-img text-light" style="background-color:olivedrab;">
-        <h1>GREER</h1>
-        <p class="lead">Tour Dates</p>
+    <div class="text-center my-5">
+        <a class="navbar-brand" href="#">
+            <img src="https://images.squarespace-cdn.com/content/v1/5e1fa95f7993de38e9588a74/f8dc0d1a-1c21-4afc-a5cf-11b07eb6f18e/logo-min.png?format=1500w" width="300" class="d-inline-block align-top" alt="">
+        </a>
     </div>
 
     <!-- CARDS -->
@@ -75,22 +78,22 @@
         </div>
     </div>
     <!-- REQUEST A SHOW -->
-    <p class="lead text-center">Request A Show!</p>
+    <h3 class="text-center mt-4">Request A Show!</h3>
         <div class="col-lg-3 mx-auto justify-content-center">
-            <form action="#" class='form-group'>
+            <form action="#" class='form-group mb-5'>
                 <input type="text" class="form-control mb-2 mr-sm-2" placeholder="First Name"/>
                 <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Last Name"/>
                 <input type="text" class="form-control mb-2 mr-sm-2" placeholder="City"/>
                 <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Email"/>
 
-                <button type="submit" class="btn btn-primary col-lg-12">Submit</button>
+                <button type="submit" class="btn col-lg-12" onclick="return confirm('Thanks for requesting a show!')">Submit</button>
               </form>
         </div>
       </div>
     <!-- FOOTER -->
-    <div class="bg-secondary p-5 text-white">
+    <div class="footer p-5">
         <!-- SOCIALS -->
-        <div>
+        <div class="tg-socials" style="color: white;">
             <!-- INSTAGRAM -->
             <a href="https://www.instagram.com/greertheband/">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -129,7 +132,7 @@
                 </svg>
             </a>
         </div>
-        &copy; 2019 Launch Page Inc
+        &copy; 2021 Jennifer Carreno
     </div>
 </body>
 </html>
